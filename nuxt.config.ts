@@ -25,4 +25,9 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  ssr: true,
+  app: {
+    baseURL: "/wehelp_ai_application/",
+  },
 });
